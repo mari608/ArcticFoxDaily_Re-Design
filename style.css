@@ -1,0 +1,1297 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+	
+	box-sizing: border-box;
+	box-sizing: inherit;
+	list-style: none;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+/* header*/
+/* Logo name*/
+
+#organization {
+	display: grid;
+  	width: 1500px;
+	max-width: 1500px;
+	grid-template-columns: repeat(1, 3fr);
+	text-align: center;
+	
+}
+
+/* Classes */
+/* Logo name text*/
+
+.artic {
+	
+	font-weight: 600;
+	 font-size: 40px;
+	font-family: "PT Serif", serif;
+}
+
+
+.wildlife {
+
+	font-weight: 600;
+	 font-size: 33px;
+	font-family: "DM Sans", sans-serif;
+	text-align: center;
+
+}
+
+.sanctuary {
+
+	font-weight: 600;
+	 font-size: 17px;
+	font-family: "DM Sans", sans-serif;
+	text-align: center;
+}
+
+
+
+
+/*Logo image */
+
+.logo {
+	
+	display: flex;
+	align-items: left;
+	padding-bottom: 10px;
+	margin-left: 12px;
+	padding: 5px;
+}
+	
+
+
+/* Nav style */
+			
+nav {
+	
+	font-family: "DM Sans", sans-serif;
+	font-weight: bold;
+	background-color: #07331C;
+	text-decoration: none;
+	grid-area: 100%;
+	padding: 0;
+	border: 0;
+	
+}
+
+
+nav ul li a {
+    padding: 8px 20px;
+}
+
+
+li a {
+  display: block;
+  color: #F7F3F6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+			
+li a:hover, li a:focus {
+  background-color: #085E33;
+}		
+
+
+li a:active {
+  background-color: #ED8E69;
+}
+
+
+li:last-child {
+  border-right: none;
+}
+
+
+nav ul {
+	
+	padding: 10px;
+	margin: 8px;
+	
+	/*button */
+	
+	list-style: none;
+	display: flex;
+	justify-content: center; 
+	
+}
+
+nav ul li {
+	
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	
+}
+
+
+
+
+
+
+
+/* buttona with pictures center */
+
+.buttons {
+	
+	display: inline-grid;
+	background-color: bisque;
+	align-items: baseline;
+	column-width: 40px 20px;
+	grid-template-columns: 50px 20px 20px;
+	 box-sizing: border-box;
+	column-gap: 7px;
+
+
+}
+
+
+
+.contribute, .patreon, .merchandise {
+	
+	
+	border-radius: 5px;
+	border-color: chocolate;
+	border: 5px;
+	margin: 10px;
+	padding-bottom: 40px;
+	padding-top: 30px;
+	margin-left: 10px;
+	
+	
+}
+
+
+/* Top pictures 3 sections*/
+
+.money, .phone, .shirt {
+	
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 10px;
+	
+}
+
+
+/* Buttons style */
+
+.button1 {
+	font-family: "DM Sans", sans-serif;
+	font-weight: bold;
+	background-color: #085E33;
+	 border: none;
+	color: #F7F3F6;
+	padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  margin: 4px 2px;
+  cursor: pointer;
+	border-radius: 23px;
+	align-content: center;
+	margin: 20px;
+	width: auto;
+	
+
+} 
+
+
+.button1:hover, .button1:focus {
+  background-color: #ED8E69;
+}		
+
+
+.button2:active {
+  background-color: #5D9AEA;
+}
+
+
+
+.button2 {
+	font-family: "DM Sans", sans-serif;
+	font-weight: bold;
+	background-color: #085E33;
+	 border: none;
+	 color: #F7F3F6;
+	 padding: 15px 32px;
+	 text-align: center;
+	 text-decoration: none;
+	 display: inline-block;
+	 font-size: 26px;
+	 margin: 4px 2px;
+	 cursor: pointer;
+	border-radius: 23px;
+	align-content: center;
+	margin: 20px;
+	width: auto;
+
+} 
+
+
+.button2:hover, .button1:focus {
+  background-color: #ED8E69;
+}		
+
+
+.button2:active {
+  background-color: #5D9AEA;
+}
+
+
+
+
+
+.button3 {
+	font-family: "DM Sans", sans-serif;
+	font-weight: bold;
+	background-color: #085E33;
+	border: none;
+	color: #F7F3F6;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 26px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 23px;
+	align-content: center;
+	margin: 20px;
+	width: auto;
+	
+
+} 
+
+
+.button3:hover, .button1:focus {
+  background-color: #ED8E69;
+}		
+
+
+.button3:active {
+  background-color: #5D9AEA;
+}
+
+
+
+.Contribute {
+	
+	align-items: left;
+	
+	
+}
+
+
+.patreon{
+	
+	align-items: center;
+	
+}
+
+.merchandise {
+	
+	align-items: right;
+	
+}
+
+
+.button1, .button2, .button3, .buttons {
+	
+	align-items: center;
+	display: grid;
+	max-width: 2255px;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 6fr));
+	grid-column-gap: 2px;
+	align-items: baseline;
+	
+}
+
+
+.description {
+	
+	font-family: "DM Sans", sans-serif;
+	max-width: 400px;
+	grid-column-gap: 2px;
+	margin-top: 20px;
+	font-size: 18px;
+	
+}
+ 
+
+
+
+/* about us */
+
+
+
+.dog {
+	
+	box-sizing: border-box;
+	display: grid;
+	grid-template-columns:45% 35%;
+	grid-template-rows: 100px;
+	grid-row-gap: 50px;
+	background: #ED8E69;
+	background-size:auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding-bottom: 70px;
+	padding-top: 30px;
+	min-width: 900px;
+
+	
+}
+
+
+/* Header 2,3 rescue */
+
+
+.about {
+	
+	font-family: "PT Serif", serif;
+	font-weight: bold;
+	color: #001366;
+	font-size: 70px;
+	text-underline-position: below;
+	text-decoration-line: underline;
+	margin-left: 20px;
+	padding-left: 10px;
+	padding-right: 50px;
+	
+	
+}
+
+.rescue {
+	
+	font-family: "DM Sans", sans-serif;
+	font-weight:500;
+	font-size: 45px;
+	margin-left: 20px;
+	padding-left:10px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	
+}
+
+/* mission list */
+
+.bodylist {
+	
+	display: block;
+	align-items: baseline;
+	
+	
+}
+
+
+
+.mission2 {
+	
+	font-family: "DM Sans", sans-serif;
+	text-align-last: left;
+	font-size: 20px;
+	margin-left: 20px;
+	text-decoration: none;
+	font-size: 25px;
+	
+}
+
+/* rescue pic */
+
+.wolfdog {
+	
+	position: relative;
+	vertical-align:right;
+	margin-left: 20px;
+	resize: both;
+	height: 550%;
+	width: 130%;
+	flex-grow: 1;
+	margin-left: 60px;
+	margin-top: 40px;
+	flex-shrink: 0;
+
+
+}
+
+
+
+
+.intro {
+	
+	padding-bottom: 50px;
+	background-color: bisque;
+	background-size:auto;
+	
+	
+}
+
+
+.name {
+	
+	font-family: "PT Serif", serif;
+	font-size: 35px;
+	font-weight: 400px;
+	font-style: italic;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 0px;
+	
+	
+	
+}
+
+.hi {
+	
+	display: inline-block;
+	vertical-align: baseline;
+	
+	
+	
+}
+
+.kim {
+	
+	margin-right: 20px;
+	max-height: 300px;
+	width: auto;
+	height: 500px;
+	float:left;
+	
+}
+
+
+
+.story {
+	
+	margin: 25px;
+	font-family: "DM Sans", sans-serif;
+}
+
+
+
+.caption {
+	
+	font-family: "DM Sans", sans-serif;
+	font-size: 15px;
+	font-style: italic;
+	display: grid;
+	grid-template-columns: repeat(1, 100fr);
+	text-align: center;
+	align-content: center;
+	margin-top: 40px;
+	color: #F7F3F6;
+	
+	
+}
+
+
+
+
+
+
+/* Page 2 Help */
+
+/*body*/
+
+.body {
+	
+	margin: 20px;
+	display: grid;
+	grid-template-columns: 60%;
+	min-width: 30%;
+	grid-template-rows: 20%  20% ;
+	grid-row-gap: 6%;
+	
+}
+
+/*found an oorphaned*/
+
+h2 {
+	
+	font-family: "PT Serif", serif;
+	
+	
+}
+
+
+h1 {
+	
+	font-family: "PT Serif", serif;
+	font-size: 45px;
+	font-weight: bolder;
+	color: #07331C;
+	
+}
+
+
+.exotic, .works {
+	
+	font-size: 35px;
+	font-family: "PT Serif", serif;
+	text-decoration: underline;
+	text-decoration-style: solid;
+	margin-bottom: 15px;
+	
+}
+
+
+
+.orphaned {
+	
+	margin-bottom: 15px;
+	padding: 10px;
+	padding-bottom: 20px;
+	
+	
+}
+
+
+
+.exotic {
+	
+	Margin-top: 20px;
+	padding-top: 15px;
+	
+	
+}
+
+.locate {
+	
+	font-family: "DM Sans", sans-serif;
+	font-size: 25px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	
+	
+}
+
+.personally {
+	
+	font-family: "DM Sans", sans-serif;
+	font-size: 19px;
+	margin-bottom: 15px;
+	
+}
+
+
+.explain {
+	
+
+	margin-bottom: 15px;
+
+	
+}
+
+
+.guide {
+	
+	margin-top: 30px;
+	margin-bottom: 100px;
+	
+	
+}
+
+
+.note {
+	
+	font-family: "PT Serif", serif;
+	font-size: 18px;
+	font-weight: 600;
+	font-style: oblique;
+	margin-bottom: 20px;
+	
+	
+}
+
+
+.placement {
+	
+	font-family: "DM Sans", sans-serif;
+	font-weight: bolder;
+	font-size: 20px;
+	text-emphasis-style: circle;
+	text-emphasis-position: below;
+	text-emphasis-color: #ED8E69;
+	Margin-top: 15px;
+	
+}
+
+
+/*buttons of body*/
+
+.help, .join {
+	
+	font-family: "DM Sans", sans-serif;
+	font-size: 30px;
+	font-weight: 900;
+	margin: 20px;
+	border-radius: 27px;
+	padding: 20px;
+	cursor: pointer;
+	background-color: beige;
+	border-color:  #07331C;
+	border-width: medium;
+	border-style: solid;
+	margin-bottom: 50px;
+
+	
+}
+
+
+.help:active {
+	
+  background-color: #5D9AEA;
+	
+}
+
+
+
+.help:hover, .help:focus {
+	
+  background-color: #ED8E69;
+}
+
+.join:active {
+	
+  background-color: #5D9AEA;
+	
+}
+
+
+.join:hover, .join:focus {
+	
+  background-color: #ED8E69;
+}
+
+
+
+
+
+/* Page 3 Residents */
+
+
+/*main title */
+
+
+.content {
+	
+	margin: 10px;
+	
+}
+
+h1 {
+	
+	font-family: "PT Serif", serif;
+	font-size: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	color: #085E33;
+	font-weight: 900;
+	border-style: dotted;
+	border-width: 10px;
+	
+}
+
+
+h2 {
+	
+	font-family: "PT Serif", serif;
+	font-weight: 600;
+	font-size: 45px;
+	color: #001366;
+	text-decoration: underline;
+	text-decoration-style: solid;
+	text-decoration-color: #001366;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	
+	
+	
+}
+
+
+h2, h3, p {
+	
+	margin-left: 10px;
+	
+	
+}
+
+
+h3 {
+	
+	font-family: "DM Sans", sans-serif;
+	font-size: 25px;
+	margin-bottom: 10px;
+	
+}
+
+
+
+p {
+	
+	font-family: "DM Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding-bottom: 15px;
+}
+
+
+
+
+
+/* toto story */
+
+
+.toto {
+	
+	background-color: #ED8E69;
+	background-size: auto;
+	border-radius: 8px;
+	
+}
+
+
+.toto, .lulu, .tundra, .loki, .siva {
+	
+	
+	margin-bottom: 30px;
+	
+	
+}
+
+
+
+
+.totopic {
+	
+	float: right;
+	display: inline-block;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+
+
+
+
+
+/* lulu story */
+
+
+.lulupic {
+	
+	float: left;
+	display: inline-block;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+
+
+
+.lulus {
+	
+	color: #F7F3F6;
+	text-decoration-color: #F7F3F6;
+	
+}
+
+
+.lulu {
+	
+	text-align: right;
+	color: #F7F3F6;
+	background-color: #085E33;
+	border-radius: 9px;
+	
+}
+
+
+
+.lulutext {
+	
+	font-weight: 500;
+	
+}
+
+
+.lulus, .lulustory, .lulutext {
+	
+	
+	margin-right: 20px;
+	
+}
+
+
+
+
+
+/* Tundra and Cleo's Story */
+
+.tundra {
+	
+	background-color:beige;
+	border-radius: 9px;
+	
+	
+}
+
+
+.titletundra, .titlecleo {
+	
+	
+	float: right;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	
+	
+}
+
+
+
+
+
+
+
+/* Loki story */
+
+
+.loki {
+	
+	background-color: #001366;
+	border-radius: 9px;
+	text-align: right;
+}
+
+
+.lokis {
+	
+	color: #5D9AEA;
+	text-decoration-color:  #5D9AEA;
+	
+}
+
+
+
+.lokistory, .lokitext {
+	
+	color: #F7F3F6;
+	
+	
+}
+
+
+.lokistory, .lokitext, .lokis {
+	
+	margin-right: 20px;
+	
+	
+}
+
+
+
+/* Siva and Finn story */
+
+
+.siva {
+	
+	background: #AEE9FF;
+	
+}
+
+
+
+
+/* Page 4 Sponsor */
+
+
+.form {
+	
+	margin: 20px;
+	
+	
+}
+
+h4 {
+	
+	font-family: "DM Sans", sans-serif;
+	font-size: 20px;
+	text-decoration: underline;
+	text-decoration-style: solid;
+}
+
+
+input[type=text] {
+	
+	
+	 width: 50%;
+	 padding: 12px 20px;
+	 margin: 8px 0;
+	 box-sizing: border-box;
+	border: 2px solid darkblue;
+  	border-radius: 4px;
+	background-color:bisque;
+	
+}
+
+
+fieldset {
+	
+	font-family: "DM Sans", sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	background-color: ;
+}
+
+.send: active {
+  background-color: #5D9AEA;
+}
+
+
+
+
+.send:hover, .send:focus {
+  background-color: #ED8E69;
+}
+
+
+
+.send {
+	
+	font-family: "DM Sans", sans-serif;
+	font-weight: bold;
+	background-color: #085E33;
+	 border: none;
+	color: #F7F3F6;
+	padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  margin: 4px 2px;
+  cursor: pointer;
+	border-radius: 23px;
+	align-content: center;
+	margin: 20px;
+	width: auto;
+	
+}
+
+
+
+
+
+
+/*footer*/
+
+footer {
+	margin-top: 20px;
+	margin-bottom: 0;
+	background-color: #085E33;
+
+}
+
+
+.media, .contact {
+	
+	color: #F7F3F6;
+	display: inline-block;
+	grid-template-columns: 200px, 200px;
+	padding-left: 40px;
+	align-items: baseline;
+	column-gap: 3px;
+	justify-content: center;
+	margin: 10px;
+	 padding: 10px;
+	margin-bottom: 20px;
+}
+
+
+.list2 {
+
+	display: block;
+	vertical-align: baseline;
+	font-family: "DM Sans", sans-serif;
+	font-weight: bold;
+	background-color: #085E33;
+	border: none;
+	color: #F7F3F6;
+	font-size: 20px;
+}
+	
+
+/*button effect list social media */
+
+
+.tiktok {
+	
+	clear: both;
+	display:block;
+	vertical-align: baseline;
+	font-family: "DM Sans", sans-serif;
+	font-weight: bold;
+	background-color: #085E33;
+	border: none;
+	color: #F7F3F6;
+	font-size: 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 0;
+	align-content: center;
+	margin: 20px;
+	width: auto;
+	border-bottom: solid;
+	border-left-width: thick;
+}
+	
+
+.instagram {
+	
+	clear: both;
+	display:block;
+	vertical-align: baseline;
+	font-family: "DM Sans", sans-serif;
+	font-weight: bold;
+	background-color: #085E33;
+	border: none;
+	color: #F7F3F6;
+	font-size: 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 0;
+	align-content: center;
+	margin: 20px;
+	width: auto;
+	border-bottom: solid;
+	border-left-width: thick;
+}
+	
+
+
+.facebook {
+	
+clear: both;
+	display:block;
+	vertical-align: baseline;
+	font-family: "DM Sans", sans-serif;
+	font-weight: bold;
+	background-color: #085E33;
+	border: none;
+	color: #F7F3F6;
+	font-size: 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 0;
+	align-content: center;
+	margin: 20px;
+	width: auto;
+	border-bottom: solid;
+	border-left-width: thick;
+}
+
+
+
+.youtube {
+	
+	clear: both;
+	display:block;
+	vertical-align: baseline;
+	font-family: "DM Sans", sans-serif;
+	font-weight: bold;
+	background-color: #085E33;
+	border: none;
+	color: #F7F3F6;
+	font-size: 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 0;
+	align-content: center;
+	margin: 20px;
+	width: auto;
+	border-bottom: solid;
+	border-left-width: thick;
+}
+	
+
+
+.tiktok: active {
+  background-color: #5D9AEA;
+}
+
+.youtube: active {
+  background-color: #5D9AEA;
+}
+
+.facebook: active {
+  background-color: #5D9AEA;
+}
+
+
+.instagram: active {
+  background-color: #5D9AEA;
+}
+
+
+
+
+.tiktok:hover, .tiktok:focus {
+  background-color: #ED8E69;
+}	
+
+
+.youtube:hover, .youtube:focus {
+  background-color: #ED8E69;
+}	
+
+
+.facebook:hover, .facebook:focus {
+  background-color: #ED8E69;
+}	
+
+
+
+.instagram:hover, .instagram:focus {
+  background-color: #ED8E69;
+}	
+
+
+
+
+
+
+
+/* contact */
+
+
+.media {
+	
+	position: relative;
+	
+}
+
+	
+
+.contact, .media {
+	
+	
+	display: inline-grid;
+	margin-left: 20px;
+	float: center;
+}
+
+
+
+
+
+.contact {
+	
+	border-left-width: medium; 
+	text-align-last: left;
+	position: relative;
+	
+}
+
+
+.us, .find {
+	
+
+	font-family: "PT Serif", serif;
+	font-size: 40px;
+	align-items: baseline;
+	
+}
+
+
+.find {
+	
+	margin-bottom: 38px;
+	color: #AEE9FF;
+	
+	
+}
+
+
+.us {
+	
+	margin-bottom: 20px;
+	color: #AEE9FF;
+	
+}
+
+
+.email, .mail {
+	
+	clear: left;
+	font-family: "DM Sans", sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	
+}
+
+
+
+.box {
+	
+	display: flex;
+	align-items: baseline;
+	
+	
+}
+
+
+
+/* contact*/
+
+.email {
+	
+	margin-top: 2px;
+	margin-bottom: 9px;
+	
+	
+}
+
+
+.mail {
+	
+	margin-top: 20px;
+	
+}
+
+
+p.address {
+	
+	font-family: "DM Sans", sans-serif;
+	font-size: 20px;
+	clear: left;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
